@@ -5,7 +5,7 @@ from selenium.webdriver.chrome.service import Service
 from webdriver_manager.firefox import GeckoDriverManager
 from webdriver_manager.chrome import ChromeDriverManager
 
-with open("testdata.yaml") as f:
+with open("TestData.yaml") as f:
     testdata = yaml.safe_load(f)
 
 browser = testdata["browser"]

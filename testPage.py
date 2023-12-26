@@ -4,7 +4,7 @@ import logging
 import yaml
 import time
 
-with open('testdata.yaml') as f:
+with open('TestData.yaml') as f:
     testdata = yaml.safe_load(f)
 
 
